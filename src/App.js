@@ -13,7 +13,7 @@ const Port = lazy(() => import('./pages/Port'));
 const Youtube = lazy(() => import('./pages/Youtube'));
 const Channel = lazy(() => import('./pages/Channel'));
 const Video = lazy(() => import('./pages/Video'));
-const Search = lazy(() => import('./pages/Search'));
+const Search = lazy(() => import('./components/section/Search'));
 const Not = lazy(() => import('./pages/Not'));
 
 

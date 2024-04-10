@@ -8,17 +8,23 @@ $header-width: 260px;
     height: 100%;
     overflow-y: auto;
     z-index: 10000;
-    background-color: var(--black);
+    border-right: 1px solid var(--black100);
 }
+
 #main {
     max-width: 2000px;
     min-height: 100vh;
     margin: 0 auto;
     padding-left: $header-width;
-    background-color: #111;
 }
+
 #footer {
     text-align: center;
-    background-color: #333;
-    padding: 20px 20px 20px $header-width;
+    background-color: var(--black100);
+    border-top: 1px solid var(--black100);
+    padding: 20px;
+    margin-left: $header-width;
+    width: calc(100% - $header-width);
+    color: var(--black400);
+    font-size: 0.8rem;
 }
