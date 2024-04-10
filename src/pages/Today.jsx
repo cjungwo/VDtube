@@ -3,7 +3,10 @@ import Main from '../components/section/Main';
 
 const Today = () => {
   return (
-    <Main>
+    <Main
+    title = "Today's Recommend"
+      description="This is Today's Recommend Page"
+    >
       Today
     </Main>
   )

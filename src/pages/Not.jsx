@@ -3,7 +3,10 @@ import Main from '../components/section/Main';
 
 const Not = () => {
   return (
-    <Main>
+    <Main
+      title = "Error Page"
+      description="This is Error Page"
+    >
       Not
     </Main>
   )

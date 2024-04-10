@@ -3,7 +3,10 @@ import Main from '../components/section/Main';
 
 const Developer = () => {
   return (
-    <Main>
+    <Main
+      title = "Developers"
+      description="This is Recommend Developers Page"
+    >
       Developer
     </Main>
   )

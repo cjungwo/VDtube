@@ -3,7 +3,10 @@ import Main from '../components/section/Main';
 
 const Port = () => {
   return (
-    <Main>
+    <Main
+    title = "Portfolio Page"
+      description="This is Portfolio Page"
+    >
       Port
     </Main>
   )
