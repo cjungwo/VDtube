@@ -1,15 +1,11 @@
-import React from 'react'
-import Header from '../components/section/Header'
-import Main from '../components/section/Main'
-import Footer from '../components/section/Footer'
+import React from 'react';
+import Main from '../components/section/Main';
 
-function Home() {
+const Home = () => {
   return (
-    <>
-        <Header />
-        <Main />
-        <Footer />
-    </>
+    <Main>
+      Home
+    </Main>
   )
 }
 

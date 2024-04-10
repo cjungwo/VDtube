@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Main from '../components/section/Main';
 
-function Website() {
+const Website = () => {
   return (
-    <div>Website</div>
+    <Main>
+      Website
+    </Main>
   )
 }
 

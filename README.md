@@ -12,3 +12,14 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 - firebase를 통해 사이트를 배포합니다.
 - vercel를 통해 사이트를 배포합니다.
 - git을 사용하여 파일을 관리합니다.
+
+
+1. Create Project 
+2. Install libraries
+3. Connect github
+4. Set SCSS
+5. Create Pages
+6. Struct Section Components
+7. Design Header Section
+8. Seperate Data of Header Section
+9. 

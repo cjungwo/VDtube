@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Main from '../components/section/Main';
 
-function Youtube() {
+const Youtube = () => {
   return (
-    <div>Youtube</div>
+    <Main>
+      Youtube
+    </Main>
   )
 }
 
