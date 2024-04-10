@@ -6,8 +6,9 @@ $header-width: 260px;
     top: 0;
     width: $header-width;
     height: 100%;
+    overflow-y: auto;
     z-index: 10000;
-    background-color: #000;
+    background-color: var(--black);
 }
 #main {
     max-width: 2000px;
