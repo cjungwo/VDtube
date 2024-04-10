@@ -23,4 +23,4 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 7. Design Header Section
 8. Seperate Data of Header Section
 9. Update to Lazy Components
-10. 
+10. Feature each sections and components
