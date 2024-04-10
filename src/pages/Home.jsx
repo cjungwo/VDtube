@@ -3,11 +3,13 @@ import React from 'react';
 import Main from '../components/section/Main';
 import Developer from '../components/contents/Developer';
 import Today from '../components/contents/Today';
-import Webd from '../components/contents/Webd';
-import Website from '../components/contents/Website';
-import Gsap from '../components/contents/Gsap';
-import Portfolio from '../components/contents/Portfolio';
-import Youtube from '../components/contents/Youtube';
+import VideoSlider from '../components/videos/VideoSlider';
+
+import { webdText } from '../data/webd';
+import { websiteText } from '../data/website';
+import { gsapText } from '../data/gsap';
+import { portfolioText } from '../data/portfolio';
+import { youtubeText } from '../data/youtube';
 
 const Home = () => {
   return (
@@ -17,11 +19,31 @@ const Home = () => {
     >
       <Today />
       <Developer />
-      <Webd />
-      <Website />
-      <Gsap />
-      <Portfolio />
-      <Youtube />
+      <VideoSlider 
+        videos={webdText} 
+        title="Web Design Tutorial" 
+        id="webd" 
+      />
+      <VideoSlider 
+        videos={websiteText} 
+        title="Website Tutorial" 
+        id="website" 
+      />
+      <VideoSlider 
+        videos={gsapText} 
+        title="🤓 GSAP Parralla Tutorial" 
+        id="gsap" 
+      />
+      <VideoSlider 
+        videos={portfolioText} 
+        title="Portfolio Tutorial" 
+        id="portfolio" 
+      />
+      <VideoSlider 
+        videos={youtubeText} 
+        title="Youtube Clone Tutorial" 
+        id="youtube" 
+      />
     </Main>
   )
 }
