@@ -25,6 +25,7 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 9. Update to Lazy Components
 10. Feature each sections and components
 11. Connect Youtube API & Rapid API
+12. Launch Website
 
 
 GO TO: https://learnchtube.netlify.app/
